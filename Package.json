@@ -1,0 +1,25 @@
+{
+  "name": "sistema-presenca-vercel",
+  "version": "2.0.0",
+  "description": "Sistema de Controle de Presença integrado com Supabase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build completed successfully'",
+    "start": "vercel dev --listen 3000",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["presença", "controle", "supabase", "vercel", "nodejs"],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
